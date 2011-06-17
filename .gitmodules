@@ -1,0 +1,3 @@
+[submodule "utilities/members-forms"]
+	path = utilities/members-forms
+	url = git://github.com/michael-e/members-forms.git
