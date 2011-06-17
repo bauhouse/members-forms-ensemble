@@ -34,19 +34,19 @@
 			<field type="username" handle="username">
 				<label>Username</label>
 				<errors>
-					<username type="missing" message="USERNAME is a required field."/>
-					<username type="invalid" message="USERNAME contains invalid characters.">The username is invalid. It must be at least 4 characters.</username>
-					<username type="invalid" message="USERNAME is already taken."/>
+					<username type="missing" message="Username is a required field."/>
+					<username type="invalid" message="Username contains invalid characters.">The username is invalid. It must be at least 4 characters.</username>
+					<username type="invalid" message="Username is already taken."/>
 					<username type="invalid" message="Member not found."/>
 					<error type="invalid" message="No Identity field found.">'Username' is a required field.</error>
 				</errors>
 			</field>
 			<field type="email" handle="email">
-				<label>E-Mail</label>
+				<label>Email</label>
 				<errors>
-					<email type="missing" message="E-Mail is a required field."/>
-					<email type="invalid" message="E-Mail is already taken."/>
-					<email type="invalid" message="E-Mail contains invalid characters.">'Email' does not seem to be a valid address.</email>
+					<email type="missing" message="Email is a required field."/>
+					<email type="invalid" message="Email is already taken."/>
+					<email type="invalid" message="Email contains invalid characters.">'Email' does not seem to be a valid address.</email>
 					<email type="invalid" message="Member not found."/>
 				</errors>
 			</field>
@@ -70,10 +70,10 @@
 					<edit>Confirm New Password</edit>
 				</label>
 				<errors>
-					<passwort type="missing" message="Passwort is a required field."/>
-					<passwort type="invalid" message="Passwort is too short. It must be at least 6 characters."/>
-					<passwort type="invalid" message="Passwort is not strong enough."/>
-					<passwort type="invalid" message="Passwort confirmation does not match."/>
+					<passwort type="missing" message="Password is a required field."/>
+					<passwort type="invalid" message="Password is too short. It must be at least 6 characters."/>
+					<passwort type="invalid" message="Password is not strong enough."/>
+					<passwort type="invalid" message="Password confirmation does not match."/>
 				</errors>
 			</field>
 			<field type="recovery-code">
