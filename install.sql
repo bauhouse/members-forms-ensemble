@@ -423,8 +423,10 @@ INSERT INTO `tbl_members_roles` (`id`, `name`, `handle`) VALUES (3, 'Member', 'm
 -- *** DATA: `tbl_members_roles_forbidden_pages` ***
 
 -- *** DATA: `tbl_pages` ***
+INSERT INTO `tbl_pages` (`id`, `parent`, `title`, `handle`, `path`, `params`, `data_sources`, `events`, `sortorder`) VALUES (1, NULL, 'Home', 'home', NULL, NULL, NULL, NULL, 1);
 
 -- *** DATA: `tbl_pages_types` ***
+INSERT INTO `tbl_pages_types` (`id`, `page_id`, `type`) VALUES (1, 1, 'index');
 
 -- *** DATA: `tbl_sections` ***
 INSERT INTO `tbl_sections` (`id`, `name`, `handle`, `sortorder`, `entry_order`, `entry_order_direction`, `hidden`, `navigation_group`) VALUES (1, 'Members', 'members', 1, NULL, 'asc', 'no', 'Members');
